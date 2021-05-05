@@ -1,0 +1,190 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home {
+    background-image: url(images/des8.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url(images/ye.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+/*========== HEADER ==========*/
+
+.header {
+    background-color: aqua;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: visible;
+    
+    text-align: inherit;
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 17px;
+    color: red
+}
+
+.header img {
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+/*========== HOME PAGE ==========*/
+
+#home-logo-img {
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text {
+    width: 180px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: lawngreen;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid green;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    widows: 80%;
+}
+
+
+/*========== HOME PAGE ==========*/
+
+
+/*===== HOME PAGE MENU =====*/
+
+.meals-list a {
+    text-decoration: none;
+    
+}
+
+.meals-list-item {
+    border: 5px solid brown;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: darkblue;
+    padding-right: 10px
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: darkslategray;
+    margin: 7px;
+    padding-left: 10px;
+}
+
+/*========== RECIPE PAGE ==========*/
+
+#recipe {
+    padding-top: 5px;
+}
+
+/*===== RECIPE DETAILS =====*/
+
+.recipe-details img {
+    width: 93%;
+    
+}
+
+recipe-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-detail-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe-details-ingredients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.recipe-details-steps {
+    padding-top: 20px;
+}
+
+.recipe-details-steps ol {
+    padding-left: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
